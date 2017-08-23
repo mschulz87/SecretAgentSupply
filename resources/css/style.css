@@ -116,6 +116,17 @@ nav ul {
   padding: 0.5em;
 }
 
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+}
+
 footer {
   background-color: black;
   color: white;
