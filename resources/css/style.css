@@ -1,6 +1,147 @@
+html {
+  font-size: 18px;
+  background-color: white;
+  font-family: sans-serif;
+  line-height: 1.15;
+  text-size-adjust: 100%;
+}
+
 body {
   font-size: 16px;
   font-family: Helvetica, sans-serif;
   line-height: 1.4em;
+  margin: 0;
 }
+
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0px 12px 0.5em;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+.company img {
+  height: 1.5em;
+  padding-right: 15px;
+}
+
+img {
+  border-style: none;
+}
+
+.main-banner {
+  height: 25em;
+  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg)
+    center center / cover no-repeat;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  width: 20em;
+  position: relative;
+  top: 9em;
+  padding: 2em 3em;
+}
+
+h1, h4 {
+  font-weight: bold;
+}
+
+.headline h1 {
+  font-size: 2em;
+  line-height: 1.2em;
+  margin: .25em 0px;
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75em 0px;
+  list-style: none;
+}
+
+.products, .business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0px 0px;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 4px;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+  padding: 2em 0px;
+}
+
+.product-image img {
+  mad-width: 8em;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 4em;
+  padding: 5em 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  nav ul {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+  .product {
+    width: 47%;
+  }
+  .product.glasses {
+    display: none;
+  }
+}
+
+
+  
 
