@@ -97,7 +97,7 @@ nav ul {
 }
 
 .product-image img {
-  mad-width: 8em;
+  max-width: 8em;
 }
 
 .description {
