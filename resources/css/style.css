@@ -186,6 +186,7 @@ footer {
   .business-info {
     display: block;
     align-content: center;
+    justify-content: center;
   }
     
   .footer {
