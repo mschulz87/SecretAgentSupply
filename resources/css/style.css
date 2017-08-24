@@ -183,9 +183,11 @@ footer {
   .product watch {
     display: none;
   }
-  .info .title {
+  .business-info {
+    display: inline-block;
     align-content: center;
   }
+    
   .footer {
     justify-content: center;
   }
