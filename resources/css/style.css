@@ -81,10 +81,6 @@ nav ul {
   list-style: none;
 }
 
-.mobile-nav container {
-  display: none;
-}
-
 .products, .business-info {
   display: flex;
   justify-content: space-between;
@@ -151,6 +147,12 @@ footer {
     width: 47%;
   }
   .product.glasses {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobile-nav container {
     display: none;
   }
 }
