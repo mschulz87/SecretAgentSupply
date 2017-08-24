@@ -180,15 +180,14 @@ footer {
   .product {
     width: 90%;
   }
-  .product watch {
+  .product.watch {
     display: none;
   }
   .business-info {
-    display: block;
-    align-content: center;
-    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
-    
   .footer {
     justify-content: center;
   }
