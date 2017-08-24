@@ -184,7 +184,7 @@ footer {
     display: none;
   }
   .business-info {
-    display: inline-block;
+    display: block;
     align-content: center;
   }
     
