@@ -130,6 +130,8 @@ footer {
   padding: 5em 0px;
 }
 
+
+
 @media only screen and (max-width: 1024px) {
   body {
     font-size: 16px;
@@ -151,12 +153,18 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1024px) {
-  .mobile-nav container {
-    display: none;
-  }
+.mobile-nav {
+  display: none;
 }
 
-
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+}
   
 
