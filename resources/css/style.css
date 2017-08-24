@@ -138,6 +138,7 @@ footer {
     font-family: Helvetica, sans-serif;
     line-height: 1.4em;
   }
+    
   nav ul {
     display: none;
   }
@@ -152,19 +153,4 @@ footer {
     display: none;
   }
 }
-
-.mobile-nav {
-  display: none;
-}
-
-@media only screen and (max-width: 1024px) {
-  nav ul {
-    display: none;
-  }
-  .mobile-nav {
-    display: block;
-    text-align: center;
-  }
-}
-  
 
