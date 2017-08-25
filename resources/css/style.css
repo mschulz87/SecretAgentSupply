@@ -185,7 +185,7 @@ footer {
   }
   .business-info {
     display: inline-flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
   }
   .footer {
